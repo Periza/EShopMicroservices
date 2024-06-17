@@ -14,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{0914EE49-A0D4-4297-ACD5-4A4DFCED2CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +29,16 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32EF1E29-DFD0-4ECD-A6DD-A2A5C5C0C2F0} = {E3237556-BB70-409F-9FA2-BE1E66D48BB7}
 		{F0721874-329D-42D1-B1CE-4A52C0BA4164} = {32EF1E29-DFD0-4ECD-A6DD-A2A5C5C0C2F0}
+		{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE} = {0914EE49-A0D4-4297-ACD5-4A4DFCED2CA1}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F0721874-329D-42D1-B1CE-4A52C0BA4164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0721874-329D-42D1-B1CE-4A52C0BA4164}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0721874-329D-42D1-B1CE-4A52C0BA4164}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0721874-329D-42D1-B1CE-4A52C0BA4164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54CAF7FC-CD72-4326-8A7A-22E2C33AE2BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

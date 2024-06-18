@@ -25,7 +25,7 @@ public class CreateProductEndpoint : ICarterModule
 
                 CreateProductResponse? response = result.Adapt<CreateProductResponse>();
 
-                return Results.Created(uri: $"/products/{response.Id}", response);
+                return Results.Created(uri: $"/products/{response.Id}", value: response);
             })
             .WithName("CreateProduct")
             .Produces<CreateProductResponse>(statusCode: StatusCodes.Status201Created)

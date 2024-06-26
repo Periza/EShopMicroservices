@@ -27,10 +27,10 @@ public class CreateProductEndpoint : ICarterModule
 
                 return Results.Created(uri: $"/products/{response.Id}", value: response);
             })
-            .WithName("CreateProduct")
+            .WithName(endpointName: "CreateProduct")
             .Produces<CreateProductResponse>(statusCode: StatusCodes.Status201Created)
             .ProducesProblem(statusCode: StatusCodes.Status400BadRequest)
             .WithSummary(summary: "Create Product")
-            .WithDescription("Create Product");
+            .WithDescription(description: "Create Product");
     }
 }
